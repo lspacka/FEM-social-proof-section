@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: league spartan;
+  background-image: url(./images/bg-pattern-top-desktop.svg);
+  /* background-repeat:repeat-y; */
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-width: 80vw;
+  max-height: 90vh;
+}
+
+.upper-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.desc {
+  text-align: center;
+  padding-right: 6rem;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px red;
+  padding: 1rem;
+  /* transform: translateX(-2rem); */
+  width: calc(100% - 2rem);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  border: solid 1px red;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+.card-img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-heading {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.card-id {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+@media (max-width: 500px) {
+  .upper-section {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .desc {
+    padding: 0;
+  }
+  .rating {
+    width: 100%;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    margin: 3rem 0 0.2rem 0;
+  }
+}
