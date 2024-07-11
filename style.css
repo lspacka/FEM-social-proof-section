@@ -14,7 +14,6 @@ body {
   background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   background-position: left top, right bottom;
   background-repeat:no-repeat, no-repeat;
-  /* background-size: contain, contain; */
 }
 
 .container {
@@ -31,7 +30,6 @@ body {
 }
 
 .desc {
-  /* text-align: center; */
   padding-right: 6rem;
   height: fit-content;
 }
@@ -58,7 +56,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1rem 2rem 1rem 2rem;
-  /* transform: translateX(-2rem); */
   width: calc(100% - 7rem);
   margin-bottom: 1rem;
   transform: translateX(-0.5rem);
@@ -70,7 +67,6 @@ body {
 .rating-star {
   width: 15px;
   height: 15px;
-  /* padding: 0.09rem; */
   margin-right: 0.3rem;
 }
 
@@ -103,7 +99,6 @@ body {
   color: hsl(300, 24%, 96%);
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
-  /* position: absolute; */
 }
 
 #card-2 {
@@ -154,8 +149,6 @@ body {
   .desc {
     padding: 0;
     text-align: center;
-    /* padding: 1rem; */
-    /* padding: 0 1rem 0 1rem; */
   }
   .desc-heading {
     font-size: 2.6rem;
@@ -163,12 +156,8 @@ body {
   }
   .desc-p {
     font-size: 1.19rem;
-    /* padding: 0 1rem 0 1rem; */
     margin-bottom: 1.7rem;
   } 
-  /* .ratings {
-    margin-top: -2rem;
-  } */
   .rating {
     width: 100%;
     margin-left: 0;

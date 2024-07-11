@@ -6,8 +6,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ![](./screenshot.png)
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/social-proof-section---html-css-QLnoQ5GObV)
+- [Live Site](https://lspacka.github.io/FEM-social-proof-section/)
 
 ### Built with
 
