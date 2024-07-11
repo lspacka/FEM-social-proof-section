@@ -4,7 +4,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 - View the optimal layout for the section depending on their device's screen size
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 - [Solution](https://your-solution-url.com)
 - [Live Site](https://your-live-site-url.com)
